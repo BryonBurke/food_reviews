@@ -13,3 +13,12 @@ Product.destroy_all
                         country_of_origin: Faker::Nation.nationality)
                         # image_url: "site.com/here_is_a_picture_of_cardamom.jpg")
 end
+
+Review.destroy_all
+
+250.times do |index|
+  Review.create!(author: Faker::Name.name,
+                        content_body: Faker::Lorem.sentence,
+                        rating: Faker::Number.between(from: 1, to: 5))
+                        # image_url: "site.com/here_is_a_picture_of_cardamom.jpg")
+end

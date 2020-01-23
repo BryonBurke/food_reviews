@@ -1,25 +1,59 @@
-# README
+Volunteer Tracker
+This program tracks products and which reviews are assigned to which products
+By Bryon Burke
+SPECIFICATIONS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1 Returns the product name
 
-Things you may want to cover:
+2 Returns the id of the product before saving product
 
-* Ruby version
+3 returns the id of the product before saving product
 
-* System dependencies
+4 Saves a product to the database
 
-* Configuration
+5 Returns a product by id
 
-* Database creation
+6 Returns all reviews for a specific product
 
-* Database initialization
+7 Allows a user to update a product
 
-* How to run the test suite
+8 Allows a user to delete a product
 
-* Services (job queues, cache servers, search engines, etc.)
+9 Returns the name of the review
 
-* Deployment instructions
+10 Returns the product_id of the review
 
-* ...
-research
+11 Checks for equality based on the name of a review
+
+12 Adds a review to the database
+
+13 Returns a review by id
+
+INTEGRATION TESTS
+
+1 Takes the user to the homepage where they can create a product
+
+2 Allows a user to change the name of the product
+
+3 Allows a user to delete a product
+
+Setup/Installation Requirements
+clone and open the file locally
+in terminal run:
+$git clone https://github.com/BryonBurke/foodReviews
+
+in terminal run: ruby app.rb
+Known Bugs
+No known bugs
+
+Support and contact details
+_If you have any issues with the program or want to reach out, email bryonparis@gmail.com
+
+Technologies Used
+This program utilized:
+
+RUBY and was built on Atom
+License
+Licensed under MIT license
+
+Copyright (c) 2019 Bryon Burke

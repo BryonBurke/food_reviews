@@ -2,14 +2,15 @@
 <h2>Foods of the world, shipped fresh</h2>
 
 <% if @products.any? %>
-  <ul>
-    <% @products.each do |product| %>
-      <li><%= link_to product.name, product_path(product) %></li>
-    <% end %>
-  </ul>
+<ul>
+  <% @products.each do |product| %>
+  <li><%= link_to product.name, product_path(product) %></li>
+  <% end %>
+</ul>
 <% else %>
-  <p>There are no products yet.</p>
+<p>There are no products yet.</p>
 <% end %>
+
 
 
 <p><%= link_to "Create new product", new_product_path %></p>
